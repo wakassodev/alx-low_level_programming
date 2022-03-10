@@ -2,7 +2,7 @@
 
 /**
  * main - Prints sizes of characters
- * 
+ *
  * Return: Always 0 (Sucess)
  */
 
