@@ -14,11 +14,10 @@
 
 /**
  * _abs - returns -n if n is less than 0 otherwise n
- * @n: integer to be tested
+ * integer to be tested
  * Return: _abs(n)
  * print_last_digit - prints the last digit of a number
- * @n: integer whose last digit is to be printed
- * Return: lastdigit
+ * integer whose last digit is to be printed
  */
 int _abs(int n)
 {
