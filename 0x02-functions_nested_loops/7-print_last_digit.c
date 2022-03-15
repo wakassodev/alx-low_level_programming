@@ -13,18 +13,16 @@
 #include "main.h"
 
 /**
- * _abs - returns -n if n is less than 0 otherwise n
- * integer to be tested
- * Return: _abs(n)
- * print_last_digit - prints the last digit of a number
- * integer whose last digit is to be printed
+ * print_last_digit - return last digit
+ * @n : number to check
+ * Return:0 or 1
  */
-int _abs(int n)
+int _abs(int num)
 {
-	if (n >= 0)
-		return (n);
+	if (num >= 0)
+		return (num);
 	else
-		return (-1 * n);
+		return (-1 * num);
 }
 int print_last_digit(int n)
 {
