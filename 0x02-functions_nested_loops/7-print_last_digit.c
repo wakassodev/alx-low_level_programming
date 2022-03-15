@@ -19,15 +19,14 @@
  * Return: integer
  */
 
-int print_last_digit(int num)
+int print_last_digit(int n)
 {
-	int nv;
+	int last = n % 10;
 
-	if (num < 0)
-		nv = -1 * (num % 10);
-	else
-		nv = num % 10;
-
-	_putchar(nv + '0');
-		return (nv);
+	if (n < 0)
+	{
+		last = last * -1;
+	}
+	_putchar(last + '0');
+	return (last);
 }
