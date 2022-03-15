@@ -9,6 +9,7 @@
 /* Updated: 2022-03-15 22:01:07 by Wakasso                                   */
 /*                                                                           */
 /*****************************************************************************/
+
 #include "main.h"
 /**
  * main - prints the string "Holberton" from a character array.
@@ -19,7 +20,7 @@ int main(void)
 	char c[] = "_putchar";
 	int i;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(c[i]);
 	}
