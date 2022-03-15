@@ -13,11 +13,12 @@
 #include "main.h"
 
 /**
- * print_times_table - prints the times table for n.
+ * times_table - prints the times table for n.
  * @n: The multiplication table requested.
  * Return: Nothing.
  */
-void print_times_table(int n)
+
+void times_table(int n)
 {
 	int i, j, res;
 
