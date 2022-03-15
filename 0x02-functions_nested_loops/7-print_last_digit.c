@@ -29,4 +29,4 @@ int print_last_digit(int num)
 
 	_putchar(nv + '0');
 		return (nv);
-}}
+}
