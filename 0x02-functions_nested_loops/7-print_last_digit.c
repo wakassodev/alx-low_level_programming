@@ -13,8 +13,8 @@
 #include "main.h"
 
 /**
- * print_last_digit - return last digit
- * @n : number to check
+ * print_last_digit: return last digit
+ * num: number
  * Return:0 or 1
  */
 
