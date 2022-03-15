@@ -17,18 +17,16 @@
  * @n : number to check
  * Return:0 or 1
  */
-int _abs(int num)
-{
-	if (num >= 0)
-		return (num);
-	else
-		return (-1 * num);
-}
-int print_last_digit(int n)
-{
-	int lastDigit;
 
-	lastDigit = _abs((n % 10));
-	_putchar(lastDigit + 48);
-	return (lastDigit);
-}
+int print_last_digit(int num)
+{
+	int nv;
+
+	if (num < 0)
+		nv = -1 * (num % 10);
+	else
+		nv = num % 10;
+
+	_putchar(nv + '0');
+		return (nv);
+}}
