@@ -9,7 +9,6 @@
 /* Updated: 2022-03-15 22:01:07 by Wakasso                                   */
 /*                                                                           */
 /*****************************************************************************/
-
 #include "main.h"
 /**
  * main - prints the string "Holberton" from a character array.
