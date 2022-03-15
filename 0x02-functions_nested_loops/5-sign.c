@@ -10,7 +10,7 @@
 /*                                                                           */
 /*****************************************************************************/
 
-#include "alx.h"
+#include "main.h"
 
 /**
  * print_sign - Determines whether an integer is positive, negative or zero.

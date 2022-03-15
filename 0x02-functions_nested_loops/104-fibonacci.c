@@ -9,6 +9,7 @@
 /* Updated: 2022-03-15 22:16:18 by Wakasso                                   */
 /*                                                                           */
 /*****************************************************************************/
+
 #include <stdio.h>
 /**
   * main - print the first 98 fibonacci numbers.

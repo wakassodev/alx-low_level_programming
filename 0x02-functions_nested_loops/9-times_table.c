@@ -10,7 +10,7 @@
 /*                                                                           */
 /*****************************************************************************/
 
-#include "alx.h"
+#include "main.h"
 
 /**
  * times_table - prints the times table from 0 - 9.

@@ -10,7 +10,7 @@
 /*                                                                           */
 /*****************************************************************************/
 
-#include "alx.h"
+#include "main.h"
 
 /**
  * _abs - returns -n if n is less than 0 otherwise n

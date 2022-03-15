@@ -9,7 +9,9 @@
 /* Updated: 2022-03-15 22:16:10 by Wakasso                                   */
 /*                                                                           */
 /*****************************************************************************/
+
 #include <stdio.h>
+
 /**
   * main - sum even fibonacci numbers under 4 million.
   * Return: Nothing.

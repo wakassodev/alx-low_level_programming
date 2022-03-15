@@ -9,7 +9,9 @@
 /* Updated: 2022-03-15 22:15:48 by Wakasso                                   */
 /*                                                                           */
 /*****************************************************************************/
-#include "holberton.h"
+
+#include "main.h"
+
 /**
  * print_times_table - prints the times table for n.
  * @n: The multiplication table requested.

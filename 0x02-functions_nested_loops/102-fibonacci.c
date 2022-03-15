@@ -9,7 +9,9 @@
 /* Updated: 2022-03-15 22:16:00 by Wakasso                                   */
 /*                                                                           */
 /*****************************************************************************/
+
 #include <stdio.h>
+
 /**
   * main - print the first 50 fibonacci numbers.
   * Return: Nothing.
