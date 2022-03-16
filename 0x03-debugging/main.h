@@ -1,27 +1,27 @@
 /*****************************************************************************/
 /*                                                                           */
 /*                                               _____  ______    ____  ___  */
-/* 0-main.c                                     /  _  \ |    |    \   \/  /  */
+/* 4-main.h                                     /  _  \ |    |    \   \/  /  */
 /*                                             /  /_\  \|    |     \     /   */
 /* By: Wakasso   <wakasso42furtif@gmail.com>  /    |    \    |___  /     \   */
 /*                                            \____|__  /_______ \/___/\  \  */
-/* Created: 2022-03-16 21:27:18   $Wakasso            \/        \/      \_/  */
-/* Updated: 2022-03-16 21:27:18 by Wakasso                                   */
+/* Created: 2022-03-16 21:28:29   $Wakasso            \/        \/      \_/  */
+/* Updated: 2022-03-16 21:28:29 by Wakasso                                   */
 /*                                                                           */
 /*****************************************************************************/
 
-#include "main.h"
+#ifndef ALX_H
+#define ALX_H
 
-/**
-  * main - Test function for positive or negative
-  * Return: 0
-  */
+#include <stdio.h>
 
-int main(void)
-{
-	int i;
+void positive_or_negative(int i);
 
-	i = 0;
-	positive_or_negative(i);
-	return (0);
-}
+int largest_number(int a, int b, int c);
+
+void print_remaining_days(int month, int day, int year);
+
+
+int convert_day(int month, int day);
+
+#endif

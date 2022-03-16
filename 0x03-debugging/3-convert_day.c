@@ -1,4 +1,16 @@
-#include "holberton.h"
+/*****************************************************************************/
+/*                                                                           */
+/*                                               _____  ______    ____  ___  */
+/* 3-convert_day.c                              /  _  \ |    |    \   \/  /  */
+/*                                             /  /_\  \|    |     \     /   */
+/* By: Wakasso   <wakasso42furtif@gmail.com>  /    |    \    |___  /     \   */
+/*                                            \____|__  /_______ \/___/\  \  */
+/* Created: 2022-03-16 21:28:22   $Wakasso            \/        \/      \_/  */
+/* Updated: 2022-03-16 21:28:22 by Wakasso                                   */
+/*                                                                           */
+/*****************************************************************************/
+
+#include "main.h"
 
 /**
 * convert_day - converts day of month to day of year, without accounting
