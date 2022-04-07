@@ -1,9 +1,6 @@
 #ifndef ALX_H
 #define ALX_H
 
-#include <stdlib.h>
-#include <stdio.h>
-
 int onlyNumbers(char *c);
 void multiply(char* s1, char* s2);
 int _putchar(char c);
