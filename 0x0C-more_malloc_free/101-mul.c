@@ -1,11 +1,5 @@
-/*
- * File: 101-mul.c
- * Author: Idi Wakasso
- */
-
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - multiplies two positive numbers
  * @argc: argument count
@@ -31,27 +25,27 @@ int main(int argc, char *argv[])
 
 /**
  * multiply - multiplies two numbers and displays it
- * @num1: first "number"
- * @num2: second "number"
+ * @f: first "number"
+ * @s: second "number"
  */
-void multiply(char *num1, char *num2)
+void multiply(char *f, char *s)
 {
 	int i, len1, len2, total, fdigit, sdigit, res = 0, tmp;
 	int *ptr;
 
-	len1 = _strlen(num1);
-	len2 = _strlen(num2);
+	len1 = _strlen(f);
+	len2 = _strlen(s);
 	tmp = len2;
 	total = len1 + len2;
 	ptr = _calloc(sizeof(int), (len1 + len2));
 	for (len1--; len1 >= 0; len1--)
 	{
-		fdigit = num1[len1] - '0';
+		fdigit = f[len1] - '0';
 		res = 0;
 		len2 = tmp;
 		for (len2--; len2 >= 0; len2--)
 		{
-			sdigit = num2[len2] - '0';
+			sdigit = s[len2] - '0';
 			res += ptr[len2 + len1 + 1] + (fdigit * sdigit);
 			ptr[len1 + len2 + 1] = res % 10;
 			res /= 10;
