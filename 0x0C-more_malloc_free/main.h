@@ -1,6 +1,12 @@
 #ifndef ALX_H
 #define ALX_H
 
+/**
+ * File: main.h
+ * Author: Idi Wakasso
+ * Desc: Header file containing prototypes for all functions
+ *       used in the 0x0C-more_malloc_free directory.
+ */
 int onlyNumbers(char *c);
 void multiply(char* num1, char* num2);
 int _putchar(char c);
