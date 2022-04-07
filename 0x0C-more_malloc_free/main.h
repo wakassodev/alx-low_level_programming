@@ -8,7 +8,7 @@
  *       used in the 0x0C-more_malloc_free directory.
  */
 int onlyNumbers(char *c);
-void multiply(char* f, char* s);
+void multiply(char* num1, char* num2);
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);

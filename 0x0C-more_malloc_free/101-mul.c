@@ -28,24 +28,24 @@ int main(int argc, char *argv[])
  * @f: first "number"
  * @s: second "number"
  */
-void multiply(char *f, char *s)
+void multiply(char *num1, char *num2)
 {
 	int i, len1, len2, total, fdigit, sdigit, res = 0, tmp;
 	int *ptr;
 
-	len1 = _strlen(f);
-	len2 = _strlen(s);
+	len1 = _strlen(num1);
+	len2 = _strlen(num2);
 	tmp = len2;
 	total = len1 + len2;
 	ptr = _calloc(sizeof(int), (len1 + len2));
 	for (len1--; len1 >= 0; len1--)
 	{
-		fdigit = f[len1] - '0';
+		fdigit = num1[len1] - '0';
 		res = 0;
 		len2 = tmp;
 		for (len2--; len2 >= 0; len2--)
 		{
-			sdigit = s[len2] - '0';
+			sdigit = num2[len2] - '0';
 			res += ptr[len2 + len1 + 1] + (fdigit * sdigit);
 			ptr[len1 + len2 + 1] = res % 10;
 			res /= 10;
