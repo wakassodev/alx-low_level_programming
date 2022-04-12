@@ -1,8 +1,10 @@
 /*
  * File: 4-new_dog.c
  * Author: Idi Wakasso
+*/
 
 #include "dog.h"
+
 /**
  * _strdup - returns a pointer to space in memory containing copy of string.
  * @s: pointer to the string.
