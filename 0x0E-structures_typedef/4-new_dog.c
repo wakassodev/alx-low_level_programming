@@ -1,7 +1,6 @@
 /*
  * File: 4-new_dog.c
- * Author: Ukonu Divine Chisom
- */
+ * Author: Idi Wakasso
 
 #include "dog.h"
 /**

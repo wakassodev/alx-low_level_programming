@@ -1,6 +1,6 @@
 /*
  * File: 2-print_dog.c
- * Author: Ukonu Divine Chisom
+ * Author: Idi Wakasso
  */
 
 #include "dog.h"

@@ -3,7 +3,7 @@
 
 /*
  * File: dog.h
- * Author: Ukonu Divine Chisom
+ * Author: Idi Wakasso
  */
 
 #include <stdlib.h>

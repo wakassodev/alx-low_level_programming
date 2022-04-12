@@ -1,6 +1,6 @@
 /*
  * File: 5-free_dog.c
- * Author: Ukonu Divine Chisom
+ * Author: Idi Wakasso
  */
 
 #include "dog.h"
