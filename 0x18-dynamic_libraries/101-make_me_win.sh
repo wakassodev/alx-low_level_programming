@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -q -O /tmp/cheatme.so https://github.com/Wakasso94/alx-low_level_programming/tree/master/0x18-dynamic_libraries/cheatme.so
-export LD_PRELOAD=/tmp/cheatme.so
+wget -P .. https://raw.githubusercontent.com/Wakasso94/alx-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
